@@ -1,6 +1,4 @@
 import './hero.css'
-// import React from 'react'
-
 // type Props = {}
 
 const HeroComponent = () => {
