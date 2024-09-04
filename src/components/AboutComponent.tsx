@@ -6,7 +6,7 @@ const AboutComponent = () => {
         <div className="container-xxl py-5">
             <div className="container">
                 <div className="row g-5 align-items-center">
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 wow slideInLeft">
                         <h6 className="section-title text-start text-primary text-uppercase">My Story, My Legacy</h6>
                         <h1 className="mb-4">Welcome to <span className="text-primary text-uppercase">Akukom</span></h1>
                         <p className="mb-4">Akukom believes in the power of storytelling to connect generations and preserve family heritage. Our user friendly app is designed to make digital storytelling accessible and secure, ensuring that your cherished family memories are preserved for life. Accessible exclusively to family members on their devices, Akukom allows you to create, share, and safeguard your family's unique legacy. Start your journey with Akukom today and keep your family's story alive for generations to come</p>

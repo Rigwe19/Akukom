@@ -4,6 +4,7 @@
 import AboutComponent from './components/AboutComponent'
 import HeroComponent from './components/HeroComponent'
 import NavBarComponent from './components/NavBarComponent'
+import VisionComponent from './components/VisionComponent'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
       <NavBarComponent />
       <HeroComponent />
       <AboutComponent />
+      <VisionComponent />
     </>
   )
 }

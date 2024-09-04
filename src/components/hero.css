@@ -18,6 +18,7 @@
   bottom: 0;
   transform: rotate(180deg);
   background: url(../img/afri_pattern.png) center center repeat-x;
+  z-index: 0;
 }
 .hero::before {
   height: 19px;
