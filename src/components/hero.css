@@ -1,0 +1,26 @@
+.hero::before,
+.hero::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 10px;
+  top: 0;
+  left: 0;
+  background: url(../img/afri_pattern.png) center center repeat-x;
+  z-index: 1;
+}
+.hero {
+  position: relative;
+}
+.hero::after {
+  height: 19px;
+  top: auto;
+  bottom: 0;
+  transform: rotate(180deg);
+  background: url(../img/afri_pattern.png) center center repeat-x;
+}
+.hero::before {
+  height: 19px;
+  top: 0;
+  bottom: auto;
+}
