@@ -7,24 +7,24 @@ const HeroComponent = () => {
             <div id="header-carousel" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img className="w-100" src="img/carousel-1.jpg" alt="Image" />
+                        <img className="w-100" src="./img/carousel-1.jpg" alt="carousel" />
                         <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                             <div className="p-3" style={{ maxWidth: 700 }}>
                                 <h6 className="section-title text-white text-uppercase mb-3 animated slideInDown">Preserve Your Family Legacy</h6>
                                 <h1 className="display-3 text-white mb-4 animated slideInDown">
                                     One Story At A Time</h1>
-                                <a href="" className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Get Started</a>
+                                <a href="/" className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Get Started</a>
                                 {/* <a href="" className="btn btn-light py-md-3 px-md-5 animated slideInRight">Book A Room</a> */}
                             </div>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img className="w-100" src="img/carousel-2.jpg" alt="Image" />
+                        <img className="w-100" src="./img/carousel-2.jpg" alt="carousel" />
                         <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                             <div className="p-3" style={{ maxWidth: 700 }}>
                                 <h6 className="section-title text-white text-uppercase mb-3 animated slideInDown">Connecting Families Through The</h6>
                                 <h1 className="display-3 text-white mb-4 animated slideInDown">Power Of Storytelling</h1>
-                                <a href="" className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Get Started</a>
+                                <a href="/" className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Get Started</a>
                                 {/* <a href="" className="btn btn-light py-md-3 px-md-5 animated slideInRight">Book A Room</a> */}
                             </div>
                         </div>
