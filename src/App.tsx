@@ -1,4 +1,4 @@
-import './app.css'
+import './App.css'
 import AboutComponent from './components/Home/AboutComponent'
 import DesignedForComponent from './components/Home/DesignedForComponent'
 import HeroComponent from './components/Home/HeroComponent'
