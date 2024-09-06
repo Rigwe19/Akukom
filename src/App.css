@@ -18,6 +18,14 @@
 }
 .cards {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: 20px;
+}
+@media screen and (min-width: 992px) {
+  .cards {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+.parallelogram {
+  border-radius: 20% 15% 20% 15% / 50% 25% 50% 25%;
 }

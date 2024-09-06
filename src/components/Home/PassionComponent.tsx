@@ -3,7 +3,7 @@
 
 const PassionComponent = () => {
     return (
-        <div className="container-xxl py-2">
+        <div className="container-xxl py-2 my-3">
             <div className="container">
                 <div className="row g-5 align-items-center">
                     <div className="col-lg-6 wow slideInLeft d-flex align-items-center">
@@ -14,7 +14,7 @@ const PassionComponent = () => {
                         </div>
                     </div>
                     <div className="col-lg-6">
-                        <img alt="vision" className="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="./img/passion.jpg" style={{ marginTop: "25%", height: 360 }} />
+                        <img alt="vision" className="img-fluid parallelogram w-100 wow zoomIn" data-wow-delay="0.1s" src="./img/passion.jpg" style={{}} />
                     </div>
                 </div>
             </div>
