@@ -38,7 +38,7 @@ const HowWorks = () => {
                         </div>
                     </div>
                     <div className="col-lg-12">
-                        {Children.toArray(lists.map(item => <div className="bg-white shadow-sm p-3 mb-3 rounded-3 d-flex gap-4">
+                        {Children.toArray(lists.map((item, index) => <div className="bg-white shadow-sm p-3 mb-3 rounded-3 d-flex gap-4 wow slideInLeft" data-wow-delay={index + 1}>
                             {item.icon}
                             <div>
                                 <h5 className="text-secondary">{item.title}</h5>
