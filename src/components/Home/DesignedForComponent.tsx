@@ -32,8 +32,8 @@ const DesignedForComponent = () => {
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-12 wow slideInLeft d-flex align-items-center">
-                        <div className="d-flex flex-column justify-content-center align-items-center">
-                            <h1 className="mb-4 text-center">Who We Designed <span className="text-primary text-uppercase">Akukom For</span></h1>
+                        <div className="d-flex flex-column justify-content-center align-items-center w-100">
+                            <h1 className="mb-4 text-center">Who We Designed Akukom <span className="text-primary text-uppercase">For</span></h1>
                             <div className="">
                                 <h6 className="section-title text-center text-primary text-uppercase">Everyone Who Cherishes Family Moments</h6>
                             </div>
