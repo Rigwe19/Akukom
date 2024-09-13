@@ -44,16 +44,16 @@ const AboutComponent = () => {
                     <div className="col-lg-6">
                         <div className="row g-3">
                             <div className="col-6 text-end">
-                                <img alt="about-1" className="img-fluid parallelogram w-75 wow zoomIn" data-wow-delay="0.1s" src="./img/about-1.jpg" style={{ marginTop: "25%" }} />
+                                <img alt="about-1" className="img-fluid parallelogram w-75 wow zoomIn" data-wow-delay="0.1s" src="/img/about-1.jpg" style={{ marginTop: "25%" }} />
                             </div>
                             <div className="col-6 text-start">
-                                <img alt="about-2" className="img-fluid parallelogram w-100 wow zoomIn" data-wow-delay="0.3s" src="./img/about-2.jpg" />
+                                <img alt="about-2" className="img-fluid parallelogram w-100 wow zoomIn" data-wow-delay="0.3s" src="/img/about-2.jpg" />
                             </div>
                             <div className="col-6 text-end">
-                                <img alt="about-3" className="img-fluid parallelogram w-50 wow zoomIn" data-wow-delay="0.5s" src="./img/about-3.jpg" />
+                                <img alt="about-3" className="img-fluid parallelogram w-50 wow zoomIn" data-wow-delay="0.5s" src="/img/about-3.jpg" />
                             </div>
                             <div className="col-6 text-start">
-                                <img alt="about-4" className="img-fluid parallelogram w-75 wow zoomIn" data-wow-delay="0.7s" src="./img/about-4.jpg" />
+                                <img alt="about-4" className="img-fluid parallelogram w-75 wow zoomIn" data-wow-delay="0.7s" src="/img/about-4.jpg" />
                             </div>
                         </div>
                     </div>

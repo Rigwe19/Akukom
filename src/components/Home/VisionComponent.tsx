@@ -14,7 +14,7 @@ const VisionComponent = () => {
                         </div>
                     </div>
                     <div className="col-lg-6">
-                        <img alt="vision" className="img-fluid parallelogram w-100 wow zoomIn" data-wow-delay="0.1s" src="./img/vision.jpg" style={{}} />
+                        <img alt="vision" className="img-fluid parallelogram w-100 wow zoomIn" data-wow-delay="0.1s" src="/img/vision.jpg" style={{}} />
                     </div>
                 </div>
             </div>

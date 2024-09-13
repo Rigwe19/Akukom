@@ -14,7 +14,7 @@ const PassionComponent = () => {
                         </div>
                     </div>
                     <div className="col-lg-6">
-                        <img alt="vision" className="img-fluid parallelogram w-100 wow zoomIn" data-wow-delay="0.1s" src="./img/passion.jpg" style={{}} />
+                        <img alt="vision" className="img-fluid parallelogram w-100 wow zoomIn" data-wow-delay="0.1s" src="/img/passion.jpg" style={{}} />
                     </div>
                 </div>
             </div>

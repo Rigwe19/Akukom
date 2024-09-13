@@ -7,7 +7,7 @@ const MissionComponent = () => {
             <div className="container">
                 <div className="row g-lg-5 g-0 align-items-center flex-column-reverse flex-lg-row">
                     <div className="col-lg-6">
-                        <img alt="mission" className="img-fluid parallelogram w-100 wow zoomIn" data-wow-delay="0.1s" src="./img/mission.jpg" style={{}} />
+                        <img alt="mission" className="img-fluid parallelogram w-100 wow zoomIn" data-wow-delay="0.1s" src="/img/mission.jpg" style={{}} />
                     </div>
                     <div className="col-lg-6 wow slideInRight d-flex align-items-center">
                         <div>

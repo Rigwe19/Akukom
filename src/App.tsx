@@ -2,6 +2,7 @@ import './App.css'
 import AboutComponent from './components/Home/AboutComponent'
 import BlogSectionComponent from './components/Home/BlogSectionComponent'
 import DesignedForComponent from './components/Home/DesignedForComponent'
+import FAQs from './components/Home/FAQs'
 import FeatureComponent from './components/Home/FeatureComponent'
 import HeroComponent from './components/Home/HeroComponent'
 import HowWorks from './components/Home/HowWorks'
@@ -31,6 +32,7 @@ function App() {
       <SignUpComponent />
       <TestimonyComponent />
       <BlogSectionComponent />
+      <FAQs />
     </>
   )
 }

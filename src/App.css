@@ -47,13 +47,15 @@
         11. Blog
 --------------------------------------*/
 .blog {
-  background: #fff;
-  padding: 115px 0 92px;
+  /* background: #fff; */
+  padding: 115px 0 0px;
 }
 
 /*blog-content*/
 .blog-content {
   margin-top: 66px;
+}
+.blog-content > .thumbnail {
 }
 .blog-content .thumbnail {
   background: transparent;
@@ -65,6 +67,8 @@
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  border-radius: 20px;
+  overflow: hidden;
 }
 .blog-content .thumbnail:hover {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -87,6 +91,7 @@
 /*.thumbnail-img*/
 .thumbnail-img {
   position: relative;
+  overflow: hidden;
 }
 
 .blog-content .thumbnail .thumbnail-img img {
@@ -119,6 +124,7 @@
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  padding-bottom: 20px;
 }
 .blog-content .thumbnail:hover .caption {
   border: transparent;
@@ -132,9 +138,10 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  color: var(--primary);
 }
 .blog-content .caption .blog-txt h3 a {
-  color: #565a5c;
+  color: var(--primary);
   font-size: 15px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
@@ -148,6 +155,11 @@
   font-size: 14px;
   font-family: "Poppins", sans-serif;
   min-height: 105px;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-transform: ellipsis;
 }
 .blog-content .caption .blog-txt a {
   font-family: "Poppins", sans-serif;
@@ -161,4 +173,17 @@
   transition: 0.5s;
 } /*.caption*/
 
+.blog-content .thumbnail:hover img {
+  transform: scale(1.2);
+}
+.blog-content .thumbnail img {
+  transition: transform 0.3s ease-in-out;
+}
 /*blog-content*/
+
+/*-------------------------------------
+        11. FAQs
+--------------------------------------*/
+/* .accordion-button {
+  border: none;
+} */

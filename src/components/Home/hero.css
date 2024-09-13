@@ -6,7 +6,7 @@
   height: 10px;
   top: 0;
   left: 0;
-  background: url(../img/afri_pattern.png) center center repeat-x;
+  background: url(./img/afri_pattern.png) center center repeat-x;
   z-index: 1;
 }
 .hero {
@@ -15,13 +15,13 @@
 .hero::after {
   height: 19px;
   top: auto;
-  bottom: 0;
+  bottom: -2px;
   transform: rotate(180deg);
-  background: url(../img/afri_pattern.png) center center repeat-x;
+  background: url(./img/afri_pattern.png) center center repeat-x;
   z-index: 0;
 }
 .hero::before {
   height: 19px;
-  top: 0;
+  top: -2px;
   bottom: auto;
 }

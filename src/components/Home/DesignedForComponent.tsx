@@ -3,27 +3,27 @@ import CardComponent from '../CardComponent'
 
 const lists = [{
     title: "The Family Historian",
-    image: "./img/historian.jpg",
+    image: "/img/historian.jpg",
     desc: "For those passionate about tracing and preserving their family's heritage."
 }, {
     title: "The Busy Parent",
-    image: "./img/busy-parents.jpg",
+    image: "/img/busy-parents.jpg",
     desc: "For parents who want to document every milestone amidst their hectic schedules."
 }, {
     title: "The Tech-Savvy Millennial",
-    image: "./img/tech.jpg",
+    image: "/img/tech.jpg",
     desc: "For digital natives seeking innovative ways to share and relive family moments."
 }, {
     title: "The Aging Grandparent",
-    image: "./img/grandparents.jpg",
+    image: "/img/grandparents.jpg",
     desc: "For elders who wish to leave a legacy for future generations."
 }, {
     title: "The New Family",
-    image: "./img/new-family.jpg",
+    image: "/img/new-family.jpg",
     desc: "For young families eager to capture and cherish their journey from the very beginning."
 }, {
     title: "The Not-so-tech Savvy",
-    image: "./img/non-tech.jpg",
+    image: "/img/non-tech.jpg",
     desc: "perfect for everyone who values preserving their heritage but prefers a less technical and user-friendly experience."
 },]
 const DesignedForComponent = () => {

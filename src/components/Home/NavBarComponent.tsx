@@ -1,13 +1,15 @@
 
 // type Props = {}
 
+import { Link } from "react-router-dom"
+
 const NavBarComponent = () => {
     return (
         <div className="container-fluid bg-dark px-0">
             <div className="row gx-0">
                 <div className="col-lg-2 bg-dark d-none d-lg-block">
                     <a href="index.html" className="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
-                        <img src="./img/akukom.png" style={{ height: 62 }} alt="" />
+                        <img src="/img/akukom.png" style={{ height: 62 }} alt="" />
                     </a>
                 </div>
                 <div className="col-lg-10">
@@ -33,15 +35,15 @@ const NavBarComponent = () => {
                         </div>
                     </div>
                     <nav className="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
-                        <a href="index.html" className="navbar-brand d-block d-lg-none">
-                            <img src="./img/mobile.png" style={{ height: 32 }} alt="" />
-                        </a>
+                        <Link to="/" className="navbar-brand d-block d-lg-none">
+                            <img src="/img/mobile.png" style={{ height: 32 }} alt="" />
+                        </Link>
                         <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                             <span className="navbar-toggler-icon"></span>
                         </button>
                         <div className="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                             <div className="navbar-nav mr-auto py-0">
-                                <a href="index.html" className="nav-item nav-link active">Home</a>
+                                <Link to="/" className="nav-item nav-link active">Home</Link>
                                 <a href="about.html" className="nav-item nav-link">About</a>
                                 <a href="service.html" className="nav-item nav-link">Services</a>
                                 <a href="room.html" className="nav-item nav-link">Rooms</a>

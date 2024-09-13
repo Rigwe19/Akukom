@@ -4,27 +4,27 @@ const features = [
     {
         title: 'Customizable Templates',
         desc: 'Create unique stories with our variety of templates.',
-        icon: './img/icons/template.png'
+        icon: '/img/icons/template.png'
     }, {
         title: 'Interactive Timelines',
         desc: 'Visualize your family history through engaging timelines.',
-        icon: './img/icons/timeline.png'
+        icon: '/img/icons/timeline.png'
     }, {
         title: 'Secure Sharing',
         desc: 'Share memories exclusively with family members.',
-        icon: './img/icons/secure.png'
+        icon: '/img/icons/secure.png'
     }, {
         title: 'Multimedia Integration',
         desc: 'Enhance stories with photos, videos, and audio recordings.',
-        icon: './img/icons/multimedia.png'
+        icon: '/img/icons/multimedia.png'
     }, {
         title: 'User-Friendly Interface',
         desc: 'Enjoy a seamless and intuitive experience.',
-        icon: './img/icons/user-friendly.png'
+        icon: '/img/icons/user-friendly.png'
     }, {
         title: 'AI aided',
         desc: 'AI tools to help you with visual representation of your stories.',
-        icon: './img/icons/ai.png'
+        icon: '/img/icons/ai.png'
     }
 ]
 const FeatureComponent = () => {
