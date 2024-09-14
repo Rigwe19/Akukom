@@ -26,7 +26,7 @@ const lists = [
 ]
 const HowWorks = () => {
     return (
-        <div className="container-xxl py-5">
+        <section id="works" className="container-xxl py-5">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-12 wow slideInLeft d-flex align-items-center">
@@ -48,7 +48,7 @@ const HowWorks = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

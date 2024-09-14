@@ -46,7 +46,6 @@ const BlogSectionComponent = () => {
 
                 </div>
             </div>
-
         </section>
     )
 }

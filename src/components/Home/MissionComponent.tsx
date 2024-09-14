@@ -3,7 +3,7 @@
 
 const MissionComponent = () => {
     return (
-        <div className="container-xxl py-3 my-3">
+        <section id="mission" className="container-xxl py-3 my-3">
             <div className="container">
                 <div className="row g-lg-5 g-0 align-items-center flex-column-reverse flex-lg-row">
                     <div className="col-lg-6">
@@ -18,7 +18,7 @@ const MissionComponent = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

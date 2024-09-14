@@ -2,7 +2,7 @@ import { PiTelegramLogoDuotone } from "react-icons/pi"
 
 const JoinTelegram = () => {
     return (
-        <div className="container-xxl py-5 px-0 wow zoomIn" data-wow-delay="0.1s">
+        <section id="community" className="container-xxl py-5 px-0 wow zoomIn" data-wow-delay="0.1s">
             <div className="row g-0">
                 <div className="col-md-6 bg-dark d-flex align-items-center">
                     <div className="p-5">
@@ -24,7 +24,7 @@ const JoinTelegram = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

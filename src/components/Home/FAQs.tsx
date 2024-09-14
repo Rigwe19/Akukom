@@ -26,7 +26,7 @@ const FAQs = () => {
     //     setItems(newItems)
     // }
     return (
-        <div className="container-xxl py-5">
+        <section id='faqs' className="container-xxl py-5">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-12 wow slideInLeft d-flex align-items-center">
@@ -42,7 +42,7 @@ const FAQs = () => {
                     </div>
                 </div>
             </div>
-        </div>)
+        </section>)
 }
 
 export default FAQs

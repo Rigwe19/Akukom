@@ -9,6 +9,7 @@ import HowWorks from "@/components/Home/HowWorks"
 import JoinTelegram from "@/components/Home/JoinTelegram"
 import MissionComponent from "@/components/Home/MissionComponent"
 import NavBarComponent from "@/components/Home/NavBarComponent"
+import PartnersComponent from "@/components/Home/PartnersComponent"
 import PassionComponent from "@/components/Home/PassionComponent"
 import PricingComponent from "@/components/Home/PricingComponent"
 import SignUpComponent from "@/components/Home/SignUpComponent"
@@ -33,6 +34,7 @@ const Home = () => {
             <TestimonyComponent />
             <BlogSectionComponent />
             <FAQs />
+            <PartnersComponent />
             <Footer />
         </>
     )

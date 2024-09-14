@@ -3,7 +3,7 @@
 
 const AboutComponent = () => {
     return (
-        <div className="container-xxl py-2">
+        <section id="about" className="container-xxl py-2">
             <div className="container">
                 <div className="row g-5 align-items-center">
                     <div className="col-lg-6 wow slideInLeft">
@@ -59,7 +59,7 @@ const AboutComponent = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

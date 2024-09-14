@@ -1,7 +1,7 @@
 import './Pricing.css'
 const PricingComponent = () => {
     return (
-        <div className="container-xxl py-5 bg-dark">
+        <section id='plans' className="container-xxl py-5 bg-dark">
             <div className="container py-5">
                 {/* <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
                     <h6 className="text-secondary text-uppercase"> Plan</h6>
@@ -74,7 +74,7 @@ const PricingComponent = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

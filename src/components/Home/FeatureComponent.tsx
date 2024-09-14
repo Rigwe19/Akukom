@@ -1,39 +1,62 @@
 import { Children } from "react"
 
+// const features = [
+//     {
+//         title: 'Customizable Templates',
+//         desc: 'Create unique stories with our variety of templates.',
+//         icon: '/img/icons/template.png'
+//     }, {
+//         title: 'Interactive Timelines',
+//         desc: 'Visualize your family history through engaging timelines.',
+//         icon: '/img/icons/timeline.png'
+//     }, {
+//         title: 'Secure Sharing',
+//         desc: 'Share memories exclusively with family members.',
+//         icon: '/img/icons/secure.png'
+//     }, {
+//         title: 'Multimedia Integration',
+//         desc: 'Enhance stories with photos, videos, and audio recordings.',
+//         icon: '/img/icons/multimedia.png'
+//     }, {
+//         title: 'User-Friendly Interface',
+//         desc: 'Enjoy a seamless and intuitive experience.',
+//         icon: '/img/icons/user-friendly.png'
+//     }, {
+//         title: 'AI aided',
+//         desc: 'AI tools to help you with visual representation of your stories.',
+//         icon: '/img/icons/ai.png'
+//     }
+// ]
 const features = [
     {
-        title: 'Customizable Templates',
-        desc: 'Create unique stories with our variety of templates.',
-        icon: '/img/icons/template.png'
-    }, {
-        title: 'Interactive Timelines',
-        desc: 'Visualize your family history through engaging timelines.',
-        icon: '/img/icons/timeline.png'
-    }, {
-        title: 'Secure Sharing',
-        desc: 'Share memories exclusively with family members.',
-        icon: '/img/icons/secure.png'
+        title: 'AI-Driven Storytelling',
+        desc: 'Leverage AI for voice recognition and natural language processing to transcribe oral histories',
+        icon: '/img/icons/ai.png'
     }, {
         title: 'Multimedia Integration',
-        desc: 'Enhance stories with photos, videos, and audio recordings.',
+        desc: 'Incorporate text, photos, videos, and audio for rich, multimedia storytelling',
         icon: '/img/icons/multimedia.png'
     }, {
-        title: 'User-Friendly Interface',
-        desc: 'Enjoy a seamless and intuitive experience.',
-        icon: '/img/icons/user-friendly.png'
+        title: 'Multilingual Support',
+        desc: 'Translate and document stories in multiple African languages, breaking down barriers',
+        icon: '/img/icons/secure.png'
     }, {
-        title: 'AI aided',
-        desc: 'AI tools to help you with visual representation of your stories.',
-        icon: '/img/icons/ai.png'
-    }
+        title: 'Customizable Templates',
+        desc: 'Offer templates tailored to various African cultural practices and storytelling formats',
+        icon: '/img/icons/template.png'
+    }, {
+        title: 'Collaborative Storytelling',
+        desc: 'Allow multiple family members to contribute and enrich stories collectively',
+        icon: '/img/icons/collaboration.png'
+    },
 ]
 const FeatureComponent = () => {
     return (
-        <div className="container-xxl py-5">
+        <section id="service" className="container-xxl py-5">
             <div className="container">
                 <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 className="section-title text-center text-primary text-uppercase">Our Services</h6>
-                    <h1 className="mb-5">Explore Our <span className="text-primary text-uppercase">Services</span></h1>
+                    <h6 className="section-title text-center text-primary text-uppercase">Digital Storytelling at Its Best</h6>
+                    <h1 className="mb-5">Features of the Akukom <span className="text-primary text-uppercase">App</span></h1>
                 </div>
                 <div className="row g-4">
                     {Children.toArray(features.map(feature => <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -50,7 +73,7 @@ const FeatureComponent = () => {
                     </div>))}
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

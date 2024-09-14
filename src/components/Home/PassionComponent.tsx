@@ -3,7 +3,7 @@
 
 const PassionComponent = () => {
     return (
-        <div className="container-xxl py-2 my-3">
+        <section id="passion" className="container-xxl py-2 my-3">
             <div className="container">
                 <div className="row g-5 align-items-center">
                     <div className="col-lg-6 wow slideInLeft d-flex align-items-center">
@@ -18,7 +18,7 @@ const PassionComponent = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
