@@ -353,6 +353,7 @@
 
 .testimonial-carousel .testimonial-item {
   padding: 30px;
+  border-radius: 20px;
 }
 
 .testimonial-carousel .owl-nav {

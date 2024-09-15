@@ -54,6 +54,7 @@
 /*blog-content*/
 .blog-content {
   margin-top: 66px;
+  width: 100%;
 }
 .blog-content .thumbnail {
   background: transparent;
@@ -255,9 +256,18 @@
 #partners .list .item .heading {
   padding: 0rem 0 0 0;
   margin: 0 0 1rem 0;
-  /* font-size: 1.1rem;
-  line-height: 1.375; */
+  font-size: 1.1rem;
+  line-height: 1.375;
   color: var(--primary);
+}
+@media (min-width: 992px) {
+  #partners .list .item .heading {
+    font-size: calc(1.275rem + 0.3vw);
+    line-height: 1.6;
+  }
+}
+.footer .btn.btn-link {
+  box-shadow: none;
 }
 :root {
   --bg: #fdfdfd;

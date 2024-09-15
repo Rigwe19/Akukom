@@ -1,6 +1,6 @@
 import NavBarComponent from '@/components/Home/NavBarComponent'
 import './Article.css'
-import { Link, useParams } from 'react-router-dom'
+import { Link, useLocation, useParams } from 'react-router-dom'
 import { Children, useEffect, useState } from 'react'
 import { articles } from '@/data/articles'
 import Footer from '@/components/Home/Footer'
@@ -25,17 +25,21 @@ const Article = () => {
         tags: []
     });
     const [index, setIndex] = useState<number[]>([]);
-    useEffect(() => {
-        const getPost = articles.findIndex(val => val.slug === slug)
+    // useEffect(() => {
+    //     const getPost = articles.findIndex(val => val.slug === slug)
 
-        if (getPost) {
-            setPost(articles[getPost])
-            const arr = [0, 1, 2];
-            arr.splice(arr.indexOf(getPost), 1);
-            setIndex(arr)
-        }
-    }, []);
+    //     if (getPost) {
+    //         setPost(articles[getPost])
+    //         const arr = [0, 1, 2];
+    //         arr.splice(arr.indexOf(getPost), 1);
+    //         setIndex(arr)
+    //     }
+    // }, []);
+    const { pathname } = useLocation();
+
     useEffect(() => {
+        const section = document.querySelector('#nav');
+        section?.scrollIntoView({ behavior: 'smooth', block: 'start' });
         const getPost = articles.findIndex(val => val.slug === slug)
         if (getPost !== -1) {
             setPost(articles[getPost])
@@ -43,8 +47,12 @@ const Article = () => {
             arr.splice(arr.indexOf(getPost), 1);
             setIndex(arr)
         }
+        // window.scrollTo(0, 0)
+        // console.log('here top')
+    }, [pathname]);
+    useEffect(() => {
     }, [slug]);
-    console.log(slug)
+    // console.log(slug)
     return (
         <>
             <NavBarComponent />
@@ -54,7 +62,7 @@ const Article = () => {
                         <div className="row">
                             <div className="col-sm-4">
                                 <div className="sidebar">
-                                    <div className="sidebar-section">
+                                    {/* <div className="sidebar-section">
                                         <h5><span>Newsletter</span></h5>
                                         <link href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css" />
                                         <div id="mc_embed_signup">
@@ -79,19 +87,17 @@ const Article = () => {
                                                 </div>
                                             </form>
                                         </div>
-                                        {/* <script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-                            <script type='text/javascript'>(function($) {window.frames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[3]='MMERGE3';ftypes[3]='text';fnames[1]='MMERGE1';ftypes[1]='text';fnames[2]='MMERGE2';ftypes[2]='text';fnames[4]='MMERGE4';ftypes[4]='text';fnames[5]='MMERGE5';ftypes[5]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script> */}
-                                    </div>
+                                    </div> */}
                                     <div className="sidebar-section">
                                         <h5><span>Useful</span></h5>
                                         <ul style={{ listStyle: "none" }}>
                                             {Children.toArray(articles.map(article => <li><Link to={`/article/${article.slug}`}>{article.title}</Link></li>))}
                                         </ul>
                                     </div>
-                                    <div className="sidebar-section">
+                                    {/* <div className="sidebar-section">
                                         <h5><span>Recommended</span></h5>
                                         <a href="https://easydigitaldownloads.com/?ref=2135" title="Sell digital downloads with WordPress, for free"><img src="https://easydigitaldownloads.com/wp-content/uploads/2015/02/300x250-2.png" alt="Sell digital downloads with WordPress, for free" /></a>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             <div className="col-sm-8">
@@ -155,7 +161,7 @@ const Article = () => {
                         </div>
                     </div>
                 </div>
-                <div className="beforefooter">
+                {/* <div className="beforefooter">
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-md-8">
@@ -167,15 +173,15 @@ const Article = () => {
                             </div>
                             <div className="col-md-4 text-right footersocial">
                                 <h5 className="footer-social-h5">Connect with Us</h5>
-                                <i className="fa fa-facebook"></i>
-                                <i className="fa fa-twitter"></i>
-                                <i className="fa fa-google"></i>
-                                <i className="fa fa-pinterest"></i>
-                                <i className="fa fa-github"></i>
+                                <i className="fab fa-facebook"></i>
+                                <i className="fab fa-twitter"></i>
+                                <i className="fab fa-google"></i>
+                                <i className="fab fa-pinterest"></i>
+                                <i className="fab fa-github"></i>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
             <Footer />
         </>

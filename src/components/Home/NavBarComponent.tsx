@@ -10,7 +10,7 @@ const NavBarComponent = () => {
         section?.scrollIntoView({ behavior: 'smooth', block: 'start' });
     };
     return (
-        <div className="container-fluid bg-dark px-0">
+        <section id="nav" className="container-fluid bg-dark px-0">
             <div className="row gx-0">
                 <div className="col-lg-2 bg-dark d-none d-lg-block">
                     <a href="/" className="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
@@ -76,7 +76,7 @@ const NavBarComponent = () => {
                     </nav>
                 </div>
             </div >
-        </div >
+        </section>
     )
 }
 

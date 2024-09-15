@@ -14,7 +14,7 @@ const Footer = () => {
                 <div className="row g-5">
                     <div className="col-md-6 col-lg-4">
                         <div className="bg-primary rounded p-4">
-                            <a href="index.html"><h1 className="text-white text-uppercase mb-3">Akukom</h1></a>
+                            <Link to="/"><h1 className="text-white text-uppercase mb-3">Akukom</h1></Link>
                             <p className="text-white mb-0">
                                 Join us in our mission to keep stories alive. For more information on partnerships and collaborations, please contact us at let’'s work together to create a lasting impact and preserve the stories that matter most
                             </p>
@@ -22,7 +22,6 @@ const Footer = () => {
                     </div>
                     <div className="col-md-6 col-lg-3">
                         <h6 className="section-title text-start text-primary text-uppercase mb-4">Contact</h6>
-                        {/* <p className="mb-2"><i className="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p> */}
                         <p className="mb-2"><i className="fa fa-phone-alt me-3"></i><a href="tel:+2348032008916" className="mb-0">+234 803 200 8916</a></p>
 
                         <p className="mb-2"><i className="fa fa-envelope me-3"></i><a href="mailto:hello@akukom.io" className="mb-0">hello@akukom.io</a></p>
@@ -38,11 +37,11 @@ const Footer = () => {
                         <div className="row gy-5 g-4">
                             <div className="col-md-6">
                                 <h6 className="section-title text-start text-primary text-uppercase mb-4">Company</h6>
-                                <a onClick={(e) => scroll(e, '#about')} className="btn btn-link" href="">About Us</a>
-                                <a onClick={(e) => scroll(e, '#mission')} className="btn btn-link" href="">Our Mission</a>
-                                <a onClick={(e) => scroll(e, '#vision')} className="btn btn-link" href="">Our Vision</a>
-                                <a onClick={(e) => scroll(e, '#passion')} className="btn btn-link" href="">Our Passion</a>
-                                <a onClick={(e) => scroll(e, '#designed-for')} className="btn btn-link" href="">Who we designed for</a>
+                                <button type="button" onClick={(e) => scroll(e, '#about')} className="btn btn-link">About Us</button>
+                                <button type="button" onClick={(e) => scroll(e, '#mission')} className="btn btn-link">Our Mission</button>
+                                <button type="button" onClick={(e) => scroll(e, '#vision')} className="btn btn-link">Our Vision</button>
+                                <button type="button" onClick={(e) => scroll(e, '#passion')} className="btn btn-link">Our Passion</button>
+                                <button type="button" onClick={(e) => scroll(e, '#designed-for')} className="btn btn-link">Who we designed for</button>
                             </div>
                             <div className="col-md-6">
                                 <h6 className="section-title text-start text-primary text-uppercase mb-4">Services</h6>
@@ -60,13 +59,11 @@ const Footer = () => {
                 <div className="copyright">
                     <div className="row">
                         <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a className="border-bottom" href="#">Akukom</a>, All Right Reserved.
+                            &copy; <a className="border-bottom" href="/">Akukom</a>, All Right Reserved.
                         </div>
                         <div className="col-md-6 text-center text-md-end">
                             <div className="footer-menu">
                                 <Link to="/">Home</Link>
-                                {/* <a href="">Cookies</a>
-                                <a href="">Help</a> */}
                                 <a onClick={(e) => scroll(e, '#faqs')} href="">FAQs</a>
                             </div>
                         </div>
