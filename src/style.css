@@ -77,7 +77,7 @@
 .navbar-dark .navbar-nav .nav-link {
   margin-right: 30px;
   padding: 25px 0;
-  color: #ffffff;
+  color: var(--dark);
   font-size: 15px;
   text-transform: uppercase;
   outline: none;
