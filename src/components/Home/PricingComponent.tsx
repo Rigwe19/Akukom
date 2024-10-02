@@ -28,7 +28,7 @@ const PricingComponent = () => {
                             <div className="p-4 pt-0 ">
                                 <p className="text-sm"><i className="fa fa-check text-success text-sm me-3"></i>Access to basic features for documenting and sharing family stories.</p>
                                 <p className="text-sm"><i className="fa fa-check text-success text-sm me-3"></i>Create up to 2 digital family stories with text and images.</p>
-                                <p className="text-sm"><i className="fa fa-check text-success text-sm me-3"></i>Limited storage (up to 1 GB).</p>
+                                <p className="text-sm"><i className="fa fa-check text-success text-sm me-3"></i>Limited storage.</p>
                                 <p className="text-sm"><i className="fa fa-check text-success text-sm me-3"></i>Basic AI transcription for audio recordings (up to 30 minutes/month).</p>
                                 <p className="text-sm"><i className="fa fa-check text-success text-sm me-3"></i>Basic family tree creation tool (up to 3 generations).</p>
                                 <p className="text-sm"><i className="fa fa-check text-success text-sm me-3"></i>Access to 2 public templates for storytelling.</p>
@@ -37,7 +37,7 @@ const PricingComponent = () => {
                                 <p className="text-sm"><i className="fa fa-check text-success me-3"></i>Limited email support.</p>
                             </div>
                         </div>
-                        <a className="btn-slide mt-2 ms-4 align-self-end d-flex" href=""><i className="fa fa-arrow-right"></i><span >Order Now</span></a>
+                        <a className="btn-slide mt-2 ms-4 align-self-end d-flex" href=""><i className="fa fa-arrow-right"></i><span >Get Plan</span></a>
                     </div>
                     <div className="wow fadeInUp price-item pb-4 d-grid" data-wow-delay="0.5s">
                         <div className="">
@@ -67,7 +67,7 @@ const PricingComponent = () => {
                                 <p className="text-sm"><i className="fa fa-check text-success me-3"></i>Priority customer support via email and live chat.</p>
                             </div>
                         </div>
-                        <a className="btn-slide mt-2 ms-4 align-self-end d-flex" href=""><i className="fa fa-arrow-right"></i><span >Order Now</span></a>
+                        <a className="btn-slide mt-2 ms-4 align-self-end d-flex" href=""><i className="fa fa-arrow-right"></i><span >Get Plan</span></a>
                     </div>
                     <div className="wow fadeInUp d-grid pb-4 price-item" data-wow-delay="0.7s">
                         <div className="">
@@ -96,7 +96,7 @@ const PricingComponent = () => {
                                 <p className="text-sm"><i className="fa fa-check text-success me-3"></i>Premium customer support with dedicated phone and email assistance.</p>
                             </div>
                         </div>
-                        <a className="btn-slide mt-2 align-self-end ms-4 d-flex" href=""><i className="fa fa-arrow-right"></i><span >Order Now</span></a>
+                        <a className="btn-slide mt-2 align-self-end ms-4 d-flex" href=""><i className="fa fa-arrow-right"></i><span >Get Plan</span></a>
                     </div>
                 </div>
             </div>
