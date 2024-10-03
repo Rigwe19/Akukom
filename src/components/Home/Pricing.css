@@ -79,3 +79,15 @@
 .price-item a.btn-slide:hover span {
   background: var(--dark);
 }
+
+.price-item {
+  height: 400px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.heritage:hover,
+.cultural:hover,
+.legacy:hover {
+  height: auto;
+  overflow: auto;
+}

@@ -15,7 +15,7 @@ const PricingComponent = () => {
                 </div>
 
                 <div className="g-5 pricing-grid">
-                    <div className="wow fadeInUp d-grid pb-4 price-item" data-wow-delay="0.3s">
+                    <div className="wow fadeInUp d-grid pb-4 heritage price-item position-relative" data-wow-delay="0.3s">
                         <div className="">
                             <div className="border-bottom p-4 mb-4">
                                 <h5 className="text-primary mb-1">Heritage Starter</h5>
@@ -39,7 +39,7 @@ const PricingComponent = () => {
                         </div>
                         <a className="btn-slide mt-2 ms-4 align-self-end d-flex" href=""><i className="fa fa-arrow-right"></i><span >Get Plan</span></a>
                     </div>
-                    <div className="wow fadeInUp price-item pb-4 d-grid" data-wow-delay="0.5s">
+                    <div className="wow fadeInUp price-item legacy pb-4 d-grid" data-wow-delay="0.5s">
                         <div className="">
                             <div className="border-bottom p-4 mb-4">
                                 <h5 className="text-primary mb-1">Legacy Builder</h5>
@@ -69,7 +69,7 @@ const PricingComponent = () => {
                         </div>
                         <a className="btn-slide mt-2 ms-4 align-self-end d-flex" href=""><i className="fa fa-arrow-right"></i><span >Get Plan</span></a>
                     </div>
-                    <div className="wow fadeInUp d-grid pb-4 price-item" data-wow-delay="0.7s">
+                    <div className="wow fadeInUp d-grid pb-4 cultural price-item" data-wow-delay="0.7s">
                         <div className="">
                             <div className="border-bottom p-4 mb-4">
                                 <h5 className="text-primary mb-1">Cultural Guardian</h5>
