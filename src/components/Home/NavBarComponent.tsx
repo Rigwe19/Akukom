@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import { articles } from "@/data/articles"
 import { Children, MouseEvent } from "react"
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaXTwitter, FaYoutube } from "react-icons/fa6";
+// import { FaFacebookF, FaInstagram, FaLinkedinIn, FaXTwitter, FaYoutube } from "react-icons/fa6";
 
 const NavBarComponent = () => {
     const scroll = (event: MouseEvent, selector: string) => {
@@ -18,7 +18,7 @@ const NavBarComponent = () => {
                     </a>
                 </div>
                 <div className="col-lg-10">
-                    <div className="row gx-0 bg-white d-none d-lg-flex">
+                    {/* <div className="row gx-0 bg-white d-none d-lg-flex">
                         <div className="col-lg-7 px-5 text-start">
                             <div className="h-100 d-inline-flex align-items-center py-2 me-4">
                                 <i className="fa fa-envelope text-primary me-2"></i>
@@ -38,7 +38,7 @@ const NavBarComponent = () => {
                                 <a className="" target="_blank" href="https://youtube.com/@akukomio?si=Xzv-gziNo2HVIWtk"><FaYoutube /></a>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <nav className="navbar navbar-expand-lg bg-white navbar-dark p-3 p-lg-0">
                         <Link to="/" className="navbar-brand d-block d-lg-none">
                             <img src="/img/mobile.png" style={{ height: 32 }} alt="" />
