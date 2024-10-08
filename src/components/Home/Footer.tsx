@@ -22,7 +22,7 @@ const Footer = () => {
                     </div>
                     <div className="col-md-6 col-lg-3">
                         <h6 className="section-title text-start text-primary text-uppercase mb-4">Contact</h6>
-                        <p className="mb-2"><i className="fa fa-phone-alt me-3"></i><a href="https://wa.link/yjy4fm" target="_blank" className="mb-0">+234 803 200 8916</a></p>
+                        <p className="mb-2"><i className="fa fa-phone-alt me-3"></i><a href="https://wa.link/epwu11" target="_blank" className="mb-0">+234 803 200 8916</a></p>
 
                         <p className="mb-2"><i className="fa fa-envelope me-3"></i><a href="mailto:hello@akukom.io" className="mb-0">hello@akukom.io</a></p>
                         <div className="d-flex pt-2">
