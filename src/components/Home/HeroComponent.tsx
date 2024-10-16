@@ -1,7 +1,12 @@
+import { RxDoubleArrowDown } from 'react-icons/rx'
 import './hero.css'
 // type Props = {}
 
 const HeroComponent = () => {
+    const scroll = (selector: string) => {
+        const section = document.querySelector(selector);
+        section?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
     return (
         <div className="container-fluid p-0 mb-5 hero">
             <div id="header-carousel" className="carousel slide" data-bs-ride="carousel">
@@ -13,8 +18,14 @@ const HeroComponent = () => {
                                 <h6 className="section-title text-white text-uppercase mb-3 animated slideInDown">Preserve Your Family Legacy</h6>
                                 <h1 className="display-3 text-white mb-4 animated slideInDown">
                                     One Story At A Time</h1>
-                                <a href="/" className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Get Started</a>
-                                {/* <a href="" className="btn btn-light py-md-3 px-md-5 animated slideInRight">Book A Room</a> */}
+                                <p className="text-white mb-4 animated zoomIn">Preserve family legacies and build connections across generations with Akukom’s interactive storytelling platform.</p>
+                                <div className="d-flex flex-column gap-4">
+                                    <a href="/" className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Get Started for Free</a>
+                                    <button onClick={() => scroll('#about')} className="py-md-3 px-md-5 animated slideInRight bg-transparent border-0 text-white d-flex flex-column justify-content-center align-items-center" style={{ fontSize: 26, fontWeight: 600 }}>
+                                        <span>Learn More About Akukom</span>
+                                        <RxDoubleArrowDown size={32} color='#fff' />
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -22,10 +33,17 @@ const HeroComponent = () => {
                         <img className="w-100" src="/img/carousel-2.jpg" alt="carousel" />
                         <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                             <div className="p-3" style={{ maxWidth: 700 }}>
-                                <h6 className="section-title text-white text-uppercase mb-3 animated slideInDown">Connecting Families Through The</h6>
-                                <h1 className="display-3 text-white mb-4 animated slideInDown">Power Of Storytelling</h1>
-                                <a href="/" className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Get Started</a>
-                                {/* <a href="" className="btn btn-light py-md-3 px-md-5 animated slideInRight">Book A Room</a> */}
+                                <h6 className="section-title text-white text-uppercase mb-3 animated slideInDown">Connecting Families Through</h6>
+                                <h1 className="display-3 text-white mb-4 animated slideInDown">Stories</h1>
+                                <p className="text-white mb-4 animated zoomIn">Create, share, and treasure your family's memories with Akukom's secured and personalised storytelling tools</p>
+                                <div className="d-flex flex-column gap-4">
+                                    <a href="/" className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Get Started for Free</a>
+                                    <button onClick={() => scroll('#about')} className="py-md-3 px-md-5 animated slideInRight bg-transparent border-0 text-white d-flex flex-column justify-content-center align-items-center" style={{ fontSize: 26, fontWeight: 600 }}>
+                                        <span>Learn More About Akukom</span>
+                                        <RxDoubleArrowDown size={32} color='#fff' />
+                                    </button>
+                                </div>
+
                             </div>
                         </div>
                     </div>
