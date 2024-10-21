@@ -22,7 +22,7 @@ const NavBarComponent = () => {
                         <div className="col-lg-7 px-5 text-start">
                             <div className="h-100 d-inline-flex align-items-center py-2 me-4">
                                 <i className="fa fa-envelope text-primary me-2"></i>
-                                <a href="mailto:hello@akukom.io" className="mb-0">hello@akukom.io</a>
+                                <a href="mailto:hello@useakukom.com" className="mb-0">hello@useakukom.com</a>
                             </div>
                             <div className="h-100 d-inline-flex align-items-center py-2">
                                 <i className="fa fa-phone-alt text-primary me-2"></i>

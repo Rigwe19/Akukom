@@ -29,25 +29,25 @@ import { Children } from "react"
 // ]
 const features = [
     {
-        title: 'AI-Driven Storytelling',
+        title: 'AI-Powered Story Creation',
         desc: 'Leverage AI for voice recognition and natural language processing to transcribe oral histories',
         icon: '/img/icons/ai.png'
     }, {
-        title: 'Multimedia Integration',
-        desc: 'Incorporate text, photos, videos, and audio for rich, multimedia storytelling',
-        icon: '/img/icons/multimedia.png'
-    }, {
-        title: 'Multilingual Support',
-        desc: 'Translate and document stories in multiple African languages, breaking down barriers',
-        icon: '/img/icons/secure.png'
-    }, {
-        title: 'Customizable Templates',
-        desc: 'Offer templates tailored to various African cultural practices and storytelling formats',
-        icon: '/img/icons/template.png'
-    }, {
-        title: 'Collaborative Storytelling',
+        title: 'Collaborative Family Tree',
         desc: 'Allow multiple family members to contribute and enrich stories collectively',
         icon: '/img/icons/collaboration.png'
+    }, {
+        title: 'Personalized Profile Pages',
+        desc: 'Your personalized space for family stories and heritage',
+        icon: '/img/icons/personalized.png'
+    }, {
+        title: 'Memory Quiz Game',
+        desc: 'Use the memory quiz game to unlock your family‘s past, one question at a time',
+        icon: '/img/icons/quiz.png'
+    }, {
+        title: 'Customizable Templates for Storytelling',
+        desc: 'Offer templates tailored to various African cultural practices and storytelling formats',
+        icon: '/img/icons/template.png'
     },
 ]
 const FeatureComponent = () => {

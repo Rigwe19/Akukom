@@ -24,7 +24,7 @@ const Footer = () => {
                         <h6 className="section-title text-start text-primary text-uppercase mb-4">Contact</h6>
                         <p className="mb-2"><i className="fa fa-phone-alt me-3"></i><a href="https://wa.link/epwu11" target="_blank" className="mb-0">+234 803 200 8916</a></p>
 
-                        <p className="mb-2"><i className="fa fa-envelope me-3"></i><a href="mailto:hello@akukom.io" className="mb-0">hello@akukom.io</a></p>
+                        <p className="mb-2"><i className="fa fa-envelope me-3"></i><a href="mailto:hello@useakukom.com" className="mb-0">hello@useakukom.com</a></p>
                         <div className="d-flex pt-2">
                             <a className="btn btn-outline-light btn-social" target="_blank" href="https://www.facebook.com/akukom.io"> <FaFacebookF size={20} /></a>
                             <a className="btn btn-outline-light btn-social" target="_blank" href="https://x.com/akukomio"><FaXTwitter size={20} /></a>
